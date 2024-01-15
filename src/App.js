@@ -1,18 +1,18 @@
 
 import './App.css';
-import First from './components/first';
+import First from './components/First';
 
 function App() {
-  const arr=[1,1,1,1,11,1,1,8]
-  const obj={asD:'asd',asdasd:'123'}
+  const arr = [1, 1, 1, 1, 11, 1, 1, 8]
+  const obj = { asD: 'asd', asdasd: '123' }
   return (
-      <>
-       <First/>
+    <>
+      <First />
       {/* {Object.keys(obj).map(()=>(
       
 
       ))} */}
-      </>
+    </>
   );
 }
 
